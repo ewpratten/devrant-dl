@@ -10,7 +10,7 @@ class Rant(object):
     def getComments(self):
         output = ""
 
-        for comment in comments:
+        for comment in self.comments:
             output += str(comment) + "\n-----\n\n"
 
         return output
@@ -37,7 +37,7 @@ Number of comments: {self.comment_count}
                 "timestamp": self.date
             },
             "body": self.body,
-            "comments": [dict(comment) for comment in self.comments]
+            "comments": [comment.dict() for comment in self.comments]
         }
 
 

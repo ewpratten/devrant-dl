@@ -1,5 +1,5 @@
 import requests
-from .structures import Profile
+from .structures import Profile, Rant
 import time
 
 api_base = "https://devrant.com/api"
@@ -40,3 +40,18 @@ def profile2Profile(profile, user_id):
     
     return output
 
+def getRantPage(uid, i):
+    rants = requests.get(api_base + "/users/" + str(uid), params={"app": app_id, "skip": i}).json()["profile"]["content"]["content"]["rants"]
+
+    for rant in rants:
+        output = Rant()
+
+        output.author_name = rant["user_username"]
+        output.body = rant["text"]
+        output.score = rant["score"]
+        output.comment_count = 0
+        output.comments = []
+        output.date = rant["created_time"]
+
+        yield output
+            
