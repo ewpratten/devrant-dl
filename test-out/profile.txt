@@ -1,0 +1,23 @@
+
+:: Profile Report ::
+Username: ewpratten (639215)
+Score: 30151
+
+Bio: I am a 16 year old developer.
+
+Programming student, programming team lead on Raider Robotics (FRC 5024)
+Skills: ['Python', 'Java', 'C++', 'Dart', 'Flutter', 'BF', 'x86', 'ARM', 'z80', 'Lua', 'JavaScript', 'Rust', 'Haskell', 'Perl']
+Location: Canada
+Website: https://retrylife.ca
+GitHub Account: Ewpratten
+
+:: Profile Photo ::
+Photo URL: https://avatars.devrant.com/v-35_c-1_b-1_g-m_9-2_1-2_16-8_3-5_8-4_7-4_5-4_12-2_6-35_10-9_2-47_22-8_18-4_19-3_4-4_20-14.png
+Photo URI: 
+
+:: Metrics ::
+Created on: 1497009234
+Rant count: 427
+Comment count: 4063
+Upvote count: 7861
+        
